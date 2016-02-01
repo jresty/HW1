@@ -1,0 +1,82 @@
+Jordan Esty
+HW1
+CS466
+
+1 200, 200, 200
+
+FIFO
+Average Turnaround Time [Completion - Arrival]
+200 + 400 + 600
+1200
+1200/3
+[400]
+
+Response Time 
+A - 200 [200-0]
+B - 200 [400-200]
+C - 200 [600-400]
+
+SJF
+Average Turnaround Time [Completion - Arrival]
+200 + 400 + 600
+1200
+1200/3
+[400]
+
+Response Time 
+200 + 400
+600
+600/3
+[200]
+
+2 100, 200, 300
+
+FIFO
+Average Turnaround Time [Completion - Arrival]
+100 + 300 + 600
+1000
+1000/3
+[333.3]
+
+Response Time
+100 + 300
+400
+400/3 
+[133.33]
+
+
+SJF
+Average Turnaround Time [Completion - Arrival]
+100 + 300 + 600
+1000
+1000/3
+[333.3]
+
+Response Time
+100 + 300
+400
+400/3 
+[133.33]
+
+3
+ 
+Average Turnaround Time [Completion - Arrival]
+465.67
+
+Response Time
+1 Second - the same thing as the time slice, which was set by the user
+
+4
+For Round Robin, a longer time slice produce a turnaround time closer to FIFO. For SJF if all jobs are the same length, the turnaround time will be closer to FIFO
+
+5
+
+For SJF to deliver the same response time as Round Robin, the time slice for Round Robin must be the same or greater than the longest job.
+ 
+6
+The response time for SJF increases as job length increases. 
+
+
+7.
+The average response time increases. It seems to be about half of the completion time.
+ An equation for this is: (1/2)(Completion)
